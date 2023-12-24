@@ -1,19 +1,15 @@
-import { useState } from 'react'
 import './App.css'
-import foto from './assets/logo.png'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Main from './components/Main'
 
 function App() {
 
   return (
     <>
-    <div className=' '>
-      <div>
-        <img className=' w-40 overflow-hidden' src={foto} alt="" />
-      </div>
-      <h1 className='text-3xl font-black'>Hola</h1>
-    </div>
-      
-      
+    <Header/>
+    <Main/>
+    <Footer/>
     </>
   )
 }
