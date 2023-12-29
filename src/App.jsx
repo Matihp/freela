@@ -7,10 +7,13 @@ function App() {
 
   return (
     <>
-    <Header/>
-    <Main/>
-    <Footer/>
+      <div className='xl:bg-[url(./assets/fondoXl.png)] 2xl:bg-[url(./assets/fondo.png)] 'id='padre'>
+        <Header/>
+        <Main/>   
+      </div>
+        <Footer/>
     </>
+    
   )
 }
 

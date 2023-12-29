@@ -11,12 +11,15 @@
   padding: 0;
   margin: 0;
 }
-html, body , div#root{/* cuidado */
-  height:100%;
+html, body , div#root, div#padre{/* cuidado */
+  
   display: flex;
   flex-direction: column;
 }
 html, main{
-  height:100%;
+  
 }
+/* .fondo{
+  background-image: url(./assets/fondo.jpg);
+} */
 
