@@ -2,6 +2,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
+import Words from './components/Words'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Main/>   
       </div>
+        <Words/>
         <Footer/>
     </>
     

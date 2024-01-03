@@ -2,9 +2,10 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <main className='flex justify-center flex-col pt-5 dark:text-white 'style={{height:'100vh',}}>
-      <h1 className='mb-20 ml-10 text-3xl'>Quieres encontrar lo que buscas?</h1>
-      
+    <main>
+      <section className='flex justify-center flex-col pt-5 dark:text-white 'style={{height:'100vh',}}>
+        <h1 className='mb-10 ml-10 max-w-lg text-4xl font-semibold leading-normal text-gray-900 dark:text-white'>Encuentra oportunidades de trabajo a tu medida</h1>
+      {/* <h3 className=''>Animate a explorar el mundo freelance</h3> */}
       <div class='flex items-center justify-center  w-1/2'>
         <div class="flex w-full mx-10 rounded bg-white">
           <input class=" w-full border-none bg-transparent px-4 py-1 text-gray-400 outline-none focus:outline-none " type="search" name="search" placeholder="Buscar..." />
@@ -15,6 +16,7 @@ const Main = () => {
           </button>
         </div>
       </div>
+      </section> 
     </main>
   )
 }
