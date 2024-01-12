@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
 import Words from './components/Words'
+import Flexbet from './components/flexbet'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Main/>   
       </div>
         <Words/>
+        <Flexbet/>
         <Footer/>
     </>
     
